@@ -38,6 +38,7 @@ time, mark, audio, video {
     margin: 0 auto;
     border-bottom: 1px solid #dddddd;
     margin-bottom: 30px;
+    color: white;
   }
 
 #inner {
@@ -54,7 +55,7 @@ time, mark, audio, video {
       height: 50px;      
       text-align: center;
       background-color: #4aaaa5;
-      color: rgb(200,200,200);
+      color: white;
 
   }
   .about{
@@ -114,6 +115,7 @@ p {
     height: 50px;
     border-top: 10px solid teal;
     font-size: 8pt;
+   
     
 }
 
@@ -141,4 +143,70 @@ input[type=submit] {
 .form {
     padding-top: 6px;
     padding-bottom: 6px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+.header {
+    text-align: center;
+    padding: 32px;
+}
+
+.gallery {
+    width: 800px;
+    margin: 0 auto;
+    position: relative;
+   
+}
+
+.galleryimage {
+    width: 400px;
+    height: 225px;
+    padding: 8px;
+    
+}
+
+.bannerbar {
+    background-color: #4aaaa5;
+    text-align: center
+    width: 400px;
+    height: 20px;
+}
+
+#agera {
+    position: absolute;
+    top: 150px;
+    left: 108px;
+}
+
+#ageraimg {
+    float: left;
+    z-index: -1;
+}
+
+#vulcan {
+    position: absolute;
+    top: 150px;
+    left: 508px;
+}
+
+#zondaimg {
+    float: left;
+}
+
+#vulcan {
+    position: absolute;
+    top: 150px;
+    left: 508px;
+}
+
+#chironimg {
+    float: left;
 }
